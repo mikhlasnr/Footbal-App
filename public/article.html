@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Football App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!--Import Google Icon-->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+
+        <!--Import materialize.css-->
+        <link rel="stylesheet" href="css/materialize.min.css" />
+
+        <!-- main css -->
+        <link rel="stylesheet" href="css/main.css" />
+
+        <!-- Import logo-->
+        <link rel="icon" type="image/png" href="img/icon192.png" />
+
+        <!-- Import logo for Apple-->
+        <link rel="apple-touch-icon" href="img/icon192Apple.png" />
+
+        <!-- Import logo for Apple-->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+
+        <!--register manifests web application-->
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#00897B" />
+        <meta name="description" content="PWA Dicoding submission" />
+    </head>
+    <body>
+        <!-- Navigasi -->
+        <nav class="teal lighten-1" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="./index.html" class="brand-logo" id="logo-container"
+                    >Football App</a
+                >
+                <a
+                    href="./index.html"
+                    class="sidenav-trigger"
+                    data-target="nav-mobile"
+                    ><i class="material-icons">arrow_back</i></a
+                >
+
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </nav>
+        <!-- Akhir Navigasi -->
+
+        <div class="container" id="body-content">
+            <!-- Card berisi artikel yang akan disisipkan disini. -->
+            <div class="container container-spinner">
+                <!-- Preloader -->
+                <div class="preloader-wrapper active">
+                    <div class="spinner-layer spinner-red-only">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="gap-patch">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Article save button dan delete button-->
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red" id="save">
+                <i class="large material-icons">save</i>
+            </a>
+            <a class="btn-floating btn-large red" id="delete">
+                <i class="large material-icons">delete</i>
+            </a>
+        </div>
+        <!-- Akhir Article save button -->
+
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/snarkdown@1.0.2/dist/snarkdown.umd.js"
+        ></script>
+        <script src="js/materialize.min.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/idb.js"></script>
+        <script src="js/db.js"></script>
+        <script src="js/article-sw.js"></script>
+    </body>
+</html>

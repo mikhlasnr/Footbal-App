@@ -1,0 +1,24 @@
+{
+    "name": "Football App",
+    "short_name": "Football",
+    "description": "PWA Dicoding Submission",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "gcm_sender_id": "718348855867",
+    "icons": [
+        {
+            "src": "img/icon192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "maskable"
+        },
+        {
+            "src": "img/icon512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ]
+}

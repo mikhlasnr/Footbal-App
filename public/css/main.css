@@ -1,0 +1,70 @@
+h2,
+h3,
+h4,
+h5 {
+    color: #bdbdbd;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4,
+.collection-header {
+    font-size: 20px;
+}
+
+.card-logo {
+    padding: 20px;
+    width: 99px;
+}
+
+.card-logo img {
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-spinner {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.page-footer {
+    background-color: #212121 !important;
+}
+
+.articles-image {
+    text-align: center;
+    width: 100%;
+}
+
+.articles-image img {
+    max-width: 200px;
+}
+
+.card-image-saved {
+    width: 99px;
+}
+
+.empty {
+    text-align: center;
+    color: #bdbdbd;
+}
+
+@media only screen and (max-width: 600px) {
+    nav .brand-logo {
+        font-size: 24px;
+    }
+}
